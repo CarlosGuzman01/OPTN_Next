@@ -26,6 +26,7 @@ export const generateXPub = async (mnemonic = '', account = 0) => {
   }
 }
 
+
 export const generateAddress = (bchXPub, change = 0, index = 0) => {
   try {
     let cashAddrBCH = bchjs.Address.fromXPub(bchXPub, `${change}/${index}`);
