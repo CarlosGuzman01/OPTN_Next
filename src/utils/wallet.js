@@ -26,6 +26,7 @@ export const generateXPub = async (mnemonic = '', account = 0) => {
   }
 }
 
+//testing comment
 
 export const generateAddress = (bchXPub, change = 0, index = 0) => {
   try {
